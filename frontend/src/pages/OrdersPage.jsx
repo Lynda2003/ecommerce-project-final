@@ -64,7 +64,7 @@ export default function OrdersPage() {
                     <img src={item.image} alt={item.name} />
                     <span>{item.name}</span>
                     <span className="order-item-qty">× {item.qty}</span>
-                    <span className="order-item-price">{(item.price * item.qty).toFixed(2)} €</span>
+                    <span className="order-item-price">{(item.price * item.qty).toFixed(3)} DT</span>
                   </div>
                 ))}
               </div>
@@ -75,7 +75,7 @@ export default function OrdersPage() {
                   <span>📦 {order.shippingAddress?.city}, {order.shippingAddress?.country}</span>
                 </div>
                 <div className="order-total">
-                  Total : <strong>{order.totalPrice.toFixed(2)} €</strong>
+                  Total : <strong>{order.totalPrice.toFixed(3)} DT</strong>
                 </div>
               </div>
             </div>
