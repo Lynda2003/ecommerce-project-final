@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom';
-import { addToCart, removeFromCart, updateQty } from '../features/cartSlice';
+import { removeFromCart, updateQty } from '../features/cartSlice';
 import { toast } from 'react-toastify';
 import api from '../utils/api';
 import ProductCard from '../components/product/ProductCard';
