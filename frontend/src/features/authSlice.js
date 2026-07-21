@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const API = 'http://localhost:5000/api';
+const API = 'https://mernapp-lynda-dzbqengsgzdhayfh.swedencentral-01.azurewebsites.net/api';
 
 const userFromStorage = localStorage.getItem('user')
   ? JSON.parse(localStorage.getItem('user'))
