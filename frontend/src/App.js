@@ -1,3 +1,4 @@
+// ShopTN v2 - Production build 2026
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { ToastContainer } from 'react-toastify';
