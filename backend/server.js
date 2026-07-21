@@ -10,7 +10,12 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: ['https://stupendous-kitten-b2210a.netlify.app', 'http://localhost:3000'],
+  origin: [
+    'https://stupendous-kitten-b2210a.netlify.app',
+    'https://beautiful-figolla-33dfac.netlify.app',
+    'https://elegant-phoenix-7c996b.netlify.app',
+    'http://localhost:3000'
+  ],
   credentials: true
 }));
 app.use(express.json());
